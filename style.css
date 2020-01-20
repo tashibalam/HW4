@@ -1,0 +1,26 @@
+#reg-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  background-size: contain;
+}
+
+#rev-container {
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient(to left, orange, red);
+  background-size: contain;
+}
+
+#swap {
+  visibility: hidden;
+}
+
+#reverse {
+  display: none;
+  position: relative;
+}
+
+#swapped-words {
+  font-family: Arial, Helvetica, sans-serif;
+}
